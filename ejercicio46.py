@@ -4,6 +4,6 @@
 
 c = input("Contraseña: ")
 if any(x.isupper() for x in c) and any(x.islower() for x in c) and any(x.isdigit() for x in c):
-    print("Segura ✅")
+    print("Segura ")
 else:
-    print("Insegura ❌")
+    print("Insegura ")
